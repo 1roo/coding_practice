@@ -1,5 +1,5 @@
 function solution(n) {
-    var toThree = '';
+    let toThree = '';
     while (n > 0) {
         toThree = n % 3 + toThree;
         n = Math.floor(n / 3);
